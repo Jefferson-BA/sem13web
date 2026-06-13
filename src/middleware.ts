@@ -1,6 +1,12 @@
-export { default } from "next-auth/middleware";
+import { withAuth } from "next-auth/middleware";
 
+// Exportamos explícitamente la función de middleware
+export default withAuth;
+
+// Configuramos las rutas protegidas
 export const config = {
-  // ATENCIÓN: Es obligatorio que todas las rutas empiecen con "/"
-  matcher: ["/dashboard", "/profile"],
+  matcher: [
+    "/dashboard", 
+    "/profile"
+  ],
 };
