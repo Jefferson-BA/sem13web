@@ -35,7 +35,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-slate-900 to-black p-4">
       <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-[0_8px_32px_0_rgba(0,0,0,0.3)] w-full max-w-md">
-        <h1 className="text-3xl text-center font-bold text-white mb-8">Bienvenido</h1>
+        <h1 className="text-3xl text-center font-bold text-white mb-8">Bienvenido,  registrate si javier es kbro</h1>
 
         {error && <div className="bg-red-500/20 text-red-200 p-3 rounded-xl mb-6 text-sm text-center">{error}</div>}
 
